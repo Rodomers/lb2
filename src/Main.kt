@@ -42,8 +42,6 @@ fun addWorkMenu() {
             }
         }
 
-//        println(PayrollDepartment.printWorkTypes())
-
         mainMenu()
         break
     }

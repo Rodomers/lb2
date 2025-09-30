@@ -91,6 +91,6 @@ object PayrollDepartment {
     }
 
     fun checkEmployee(surname: String): Boolean {
-        return PayrollDepartment.getEmployeeId(surname) != -1
+        return getEmployeeId(surname) != -1
     }
 }
