@@ -31,7 +31,7 @@ object PayrollDepartment {
     }
 
     fun addEmployee(employee: Employee): Boolean {
-        if (getEmployeeId(employee.surname) == -1) {
+        if (getEmployeeId(employee.surname) == -1 && employee.surname.isNotEmpty()) {
             employees.add(employee)
             return true
         }

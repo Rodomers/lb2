@@ -89,7 +89,7 @@ fun employeeMenu(
                     }
                 }
                 else -> {
-                    if (!PayrollDepartment.addEmployee(Employee(name))) res = "Работник с такой фамилией уже существует."
+                    if (!PayrollDepartment.addEmployee(Employee(name))) res = "Работник с такой фамилией уже существует или длина фамилии равна нулю."
                 }
             }
 
